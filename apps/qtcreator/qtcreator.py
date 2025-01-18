@@ -8,9 +8,3 @@ class EditActions:
         actions.key("ctrl-k")
         actions.insert(str(n))
         actions.key("enter")
-
-# @ctx.action_class("user")
-# class UserActions:
-    # splits.py support begin
-    # def switch_header_source():
-        # actions.user.qtcreator("SwitchHeaderSource")

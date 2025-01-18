@@ -36,52 +36,6 @@ next of <user.command>$:
     insert("{command}")
     key(escape)
 
-if: 
-    "if()"
-    key(left)
-vector:
-    "std::vector<>"
-    key(left)
-string: "std::string"
-constant: "const "
-const: "const "
-auto: "auto "
-reference: "&"
-body: 
-    "{}"
-    key(left)
-    key(enter)
-include: "#include "
-gtest: "gtest" 
-create test: "TEST("
-class: "class " 
-extension source: ".cpp"
-extension header: ".h"
-expect equal:"EXPECT_EQ"
-expect true:"EXPECT_TRUE"
-expect false: "EXPECT_FALSE"
-assert:"ASSERT_THAT"
-integer: "int "
-double: "double "
-boolean: "bool "
-return: "return "
-private: "private: "
-current: key(ctrl-f)
-
-include vector: "#include <vector>"
-include see math: "#include <cmath>"
-include algorithm: "#include <algorithm>"
-include stream: "#include <fstream>"
-stud: "std::"
-ranges: "std::ranges::"
-rename: key(ctrl-shift-r)
-string to integer: "std::stoi"
-
-stream: "<<"
-begin iterator: ".begin()"
-end iterator: ".end()"
-transform: "std::transform"
-control vest: key(ctrl-v)
 go hook: 
     key(ctrl-f)
     insert("(")
@@ -100,4 +54,55 @@ block end: key(ctrl-])
 select block end: key(ctrl-shift-])
 select block start: key(ctrl-shift-[)
 block start: key(ctrl-[)
-block select: key(ctrl-u)54
+block select: key(ctrl-u)
+current: key(ctrl-f)
+rename: key(ctrl-shift-r)
+
+# C++
+class: "class " 
+integer: "int "
+double: "double "
+boolean: "bool "
+return: "return "
+private: "private: "
+vector:
+    "std::vector<>"
+    key(left)
+string: "std::string"
+constant: "const "
+const: "const "
+auto: "auto "
+reference: "&"
+
+include: "#include "
+include vector: "#include <vector>"
+include see math: "#include <cmath>"
+include algorithm: "#include <algorithm>"
+include stream: "#include <fstream>"
+stud: "std::"
+ranges: "std::ranges::"
+transform: "std::transform"
+string to integer: "std::stoi"
+
+stream: "<<"
+begin iterator: ".begin()"
+end iterator: ".end()"
+
+if: 
+    "if()"
+    key(left)
+
+body: 
+    "{}"
+    key(left)
+    key(enter)
+extension source: ".cpp"
+extension header: ".h"
+
+# GTest  
+gtest: "gtest" 
+create test: "TEST("
+expect equal:"EXPECT_EQ"
+expect true:"EXPECT_TRUE"
+expect false: "EXPECT_FALSE"
+assert:"ASSERT_THAT"
