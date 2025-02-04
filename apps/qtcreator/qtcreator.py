@@ -8,3 +8,14 @@ class EditActions:
         actions.key("ctrl-k")
         actions.insert(str(n))
         actions.key("enter")
+        
+@ctx.action_class("win")
+class WinActions:
+    def filename():
+        title = actions.win.title()
+        result = title.split(" ")[0]
+
+        if "." in result:
+            return result
+
+        return ""

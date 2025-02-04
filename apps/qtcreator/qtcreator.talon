@@ -57,52 +57,6 @@ block start: key(ctrl-[)
 block select: key(ctrl-u)
 current: key(ctrl-f)
 rename: key(ctrl-shift-r)
+new file: key(ctrl-n)
+select all: key(ctrl-a)
 
-# C++
-class: "class " 
-integer: "int "
-double: "double "
-boolean: "bool "
-return: "return "
-private: "private: "
-vector:
-    "std::vector<>"
-    key(left)
-string: "std::string"
-constant: "const "
-const: "const "
-auto: "auto "
-reference: "&"
-
-include: "#include "
-include vector: "#include <vector>"
-include see math: "#include <cmath>"
-include algorithm: "#include <algorithm>"
-include stream: "#include <fstream>"
-stud: "std::"
-ranges: "std::ranges::"
-transform: "std::transform"
-string to integer: "std::stoi"
-
-stream: "<<"
-begin iterator: ".begin()"
-end iterator: ".end()"
-
-if: 
-    "if()"
-    key(left)
-
-body: 
-    "{}"
-    key(left)
-    key(enter)
-extension source: ".cpp"
-extension header: ".h"
-
-# GTest  
-gtest: "gtest" 
-create test: "TEST("
-expect equal:"EXPECT_EQ"
-expect true:"EXPECT_TRUE"
-expect false: "EXPECT_FALSE"
-assert:"ASSERT_THAT"
