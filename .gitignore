@@ -8,7 +8,9 @@ __pycache__
 /private
 .vscode/settings.json
 .DS_Store
+
 *.bak
+*.talon-list
 # Emacs (from https://github.com/github/gitignore/blob/main/Global/Emacs.gitignore)
 *~
 \#*\#
