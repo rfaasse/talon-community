@@ -22,6 +22,7 @@ code_languages = [
     # Language("cmake", "see make", ["cmake"]),
     Language("csharp", "see sharp", ["cs"]),
     Language("css", "c s s", ["css"]),
+    Language("cplusplus", "see plus plus", ["cpp", "h", "hpp"]),
     # Language("elisp", "elisp", ["el"]),
     Language("elixir", "elixir", ["ex"]),
     # Language("elm", "elm", ["elm"]),

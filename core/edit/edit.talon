@@ -75,7 +75,7 @@ padding: user.insert_between(" ", " ")
     insert(" ")
 
 # Undo/redo
-undo that: edit.undo()
+nope: edit.undo()
 redo that: edit.redo()
 
 # Save
