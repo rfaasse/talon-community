@@ -30,3 +30,42 @@ find it <phrase>$:
     key(escape)
     # make it so
     edit.find("{phrase}\n")
+	
+	
+list: 
+    "kp ls"
+	key(enter)
+select: "kp set "
+build: 
+    "kp b"
+	key(enter)
+
+startclion: 
+    "startclion"
+	key(enter)
+	
+test: 
+    "kp t"
+	key(enter)
+
+beaty:
+	"kp b & kp t"
+	key(enter)
+
+coat cov:
+    "kp coco"
+	key(enter)
+format:
+    "kp format"
+	key(enter)
+	
+cancel: 
+	key(ctrl-c)
+	
+test sweet:
+	"runkratostests"
+	key(enter)
+	
+test sweet nightly:
+	"runkratostests -l nightly"
+	key(enter)
