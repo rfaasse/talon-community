@@ -1,16 +1,22 @@
 # C++
+code.language: cplusplus
+
+
 class: "class " 
 integer: "int "
 double: "double "
 boolean: "bool "
 return: "return "
 private: "private: "
+protected: "protected: "
+public: "public: "
 vector:
     "std::vector<>"
     key(left)
 string: "std::string"
 constant: "const "
 const: "const "
+const expert: "constexpr " 
 auto: "auto "
 reference: "&"
 
