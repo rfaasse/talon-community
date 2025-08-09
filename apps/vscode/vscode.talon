@@ -297,3 +297,4 @@ scout [<user.text>]:
     user.vscode("editor.actions.findWithArgs")
     sleep(50ms)
     insert(text or "")
+current run: key(ctrl-shift-f5)
