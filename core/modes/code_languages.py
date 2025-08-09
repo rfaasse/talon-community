@@ -22,7 +22,6 @@ code_languages = [
     # Language("cmake", "see make", ["cmake"]),
     Language("csharp", "see sharp", ["cs"]),
     Language("css", "c s s", ["css"]),
-    Language("cplusplus", "see plus plus", ["cpp", "h", "hpp"]),
     # Language("elisp", "elisp", ["el"]),
     Language("elixir", "elixir", ["ex"]),
     # Language("elm", "elm", ["elm"]),
@@ -58,7 +57,7 @@ code_languages = [
     # Language("vba", "vba", ["vba"]),
     Language("vimscript", "vim script", ["vim", "vimrc"]),
     # These languages doesn't actually have a language mode, but we do have snippets.
-    Language("cpp", "see plus plus", ["cpp", "hpp"]),
+    Language("cpp", "see plus plus", ["cpp", "hpp", "h"]),
     Language("csv", "csv", ["csv"]),
     Language("html", "html", ["html"]),
     Language("json", "json", ["json"]),
