@@ -148,6 +148,10 @@ close all tabs: user.vscode("workbench.action.closeAllEditors")
 close tabs way right: user.vscode("workbench.action.closeEditorsToTheRight")
 close tabs way left: user.vscode("workbench.action.closeEditorsToTheLeft")
 
+cross: user.split_next()
+panel close: user.vscode("workbench.action.closePanel")
+
+
 # Folding
 fold that: user.vscode("editor.fold")
 unfold that: user.vscode("editor.unfold")
