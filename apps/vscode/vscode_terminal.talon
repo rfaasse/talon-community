@@ -5,3 +5,7 @@ app: vscode
 win.title: /focus:\[Terminal\]/
 -
 tag(): terminal
+
+last run:
+    key(up)
+    key(enter)
