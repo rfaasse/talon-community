@@ -16,6 +16,7 @@ port_mapping = {
     "com.google.android.studio": 8652,
     "com.jetbrains.AppCode": 8655,
     "com.jetbrains.CLion": 8657,
+    "CLion": 8657,
     "com.jetbrains.datagrip": 8664,
     "com.jetbrains.goland-EAP": 8659,
     "com.jetbrains.goland": 8659,

@@ -49,7 +49,7 @@ test:
 	key(enter)
 
 beaty:
-	"kp b & kp t"
+	"kp b && kp t"
 	key(enter)
 
 coat cov:

@@ -298,3 +298,7 @@ scout [<user.text>]:
     sleep(50ms)
     insert(text or "")
 current run: key(ctrl-shift-f5)
+build: key(f7)
+terminate: 
+    key(end)
+    insert(";")
